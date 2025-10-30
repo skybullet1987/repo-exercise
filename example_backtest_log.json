@@ -13,7 +13,7 @@
     "notional": 5046.875,
     "is_maker": false,
     "success": true,
-    "timestamp": "2025-10-30T03:09:33.418593"
+    "timestamp": "2025-10-30T03:10:06.990497"
   },
   {
     "mode": "backtest",
@@ -29,7 +29,7 @@
     "notional": 4609.6875,
     "is_maker": false,
     "success": true,
-    "timestamp": "2025-10-30T03:09:33.518894"
+    "timestamp": "2025-10-30T03:10:07.090837"
   },
   {
     "mode": "backtest",
@@ -45,6 +45,6 @@
     "notional": 2585.375,
     "is_maker": true,
     "success": true,
-    "timestamp": "2025-10-30T03:09:33.619220"
+    "timestamp": "2025-10-30T03:10:07.191266"
   }
 ]
