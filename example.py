@@ -84,6 +84,7 @@ def main():
     
     if buy_eth['success']:
         print(f"  ✓ Filled at ${buy_eth['fill_price']:.2f}")
+        print(f"    Expected: ${buy_eth['expected_price']:.2f}")
         print(f"    Slippage: ${buy_eth['slippage']:.2f} ({buy_eth['slippage_bps']:.2f} bps)")
         print(f"    Fee: ${buy_eth['fee']:.2f}")
     
@@ -132,7 +133,7 @@ def main():
         symbol='BTC/USD',
         side=OrderSide.BUY,
         quantity=0.0001,
-        price=50.0  # Notional = $0.005, below $10 minimum
+        price=100.0  # Notional = $0.01, below $10 minimum
     )
     print(f"  Result: {'✓ Rejected' if not small_order['success'] else '✗ Accepted'}")
     if not small_order['success']:
@@ -144,7 +145,7 @@ def main():
         symbol='BTC/USD',
         side=OrderSide.BUY,
         quantity=10.0,
-        price=50000.0  # Would cost ~$500,000
+        price=50000.0  # Notional = $500,000, far exceeds available cash
     )
     print(f"  Result: {'✓ Rejected' if not large_order['success'] else '✗ Accepted'}")
     if not large_order['success']:
