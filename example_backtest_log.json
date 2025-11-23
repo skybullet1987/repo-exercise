@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "backtest",
+    "symbol": "BTC/USD",
+    "side": "buy",
+    "order_type": "market",
+    "quantity": 0.1,
+    "expected_price": 50000.0,
+    "fill_price": 50468.75,
+    "slippage": 46.87500000000001,
+    "slippage_bps": 93.75,
+    "fee": 10.09375,
+    "notional": 5046.875,
+    "is_maker": false,
+    "success": true,
+    "timestamp": "2025-11-23T04:45:30.558028"
+  },
+  {
+    "mode": "backtest",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "order_type": "market",
+    "quantity": 1.5,
+    "expected_price": 3000.0,
+    "fill_price": 3073.125,
+    "slippage": 109.6875,
+    "slippage_bps": 243.75,
+    "fee": 9.219375,
+    "notional": 4609.6875,
+    "is_maker": false,
+    "success": true,
+    "timestamp": "2025-11-23T04:45:30.658464"
+  },
+  {
+    "mode": "backtest",
+    "symbol": "BTC/USD",
+    "side": "sell",
+    "order_type": "limit",
+    "quantity": 0.05,
+    "expected_price": 52000.0,
+    "fill_price": 51707.5,
+    "slippage": 14.625,
+    "slippage_bps": 56.25,
+    "fee": 2.585375,
+    "notional": 2585.375,
+    "is_maker": true,
+    "success": true,
+    "timestamp": "2025-11-23T04:45:30.758895"
+  }
+]
